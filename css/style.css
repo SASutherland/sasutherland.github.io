@@ -35,7 +35,7 @@ h2 {
 }
 
 #name {
-  width: 300px;
+  width: 100%;
 }
 
 .header .subtitle {
@@ -128,53 +128,12 @@ h2 {
 }
 
 .stack img {
-  height: 100px;
-  margin-bottom: 5px;
-}
-
-#react {
-  height: 95px;
-  margin-right: 5px;
-  vertical-align: top;
-}
-
-#bootstrap {
-  margin-right: 8px;
-}
-
-#github {
-  height: 75px;
-  width: 120px;
-  margin: 0 -10px 13px -16px;
-}
-
-#postgres {
   height: 90px;
-  margin-right: 14px;
-  vertical-align: top;
+  margin: 10px 12px;
 }
-
-.third-row img {
-  height: 85px;
-  margin: 5px 10px 10px 10px;
-}
-
-#stimulus {
-  height: 60px;
-}
-
-#ubuntu {
-  height: 70px;
-}
-
-#vite {
-  height: 65px;
-  margin-left: -2px;
-}
-
 
 #less-is-more {
-  height: 500px;
+  width: 95%;
 }
 
 .align-right {
@@ -223,7 +182,7 @@ h2 {
   text-align: center;
   font-size: 40px;
   margin-left: 60px;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 
 .features-right a {
@@ -236,7 +195,7 @@ h2 {
 }
 
 #computer-swap {
-  height: 500px;
+  width: 95%;
 }
 
 .react-mini {
@@ -315,8 +274,41 @@ h2 {
   transition: ease 0.3s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1050px) {
   .container {
-    width: 800px;
+    width: 90vw;
+  }
+  .stack img {
+    height: 65px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cv {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .full-stack-dev {
+    display: none;
+  }
+  .header-links i {
+    font-size: 32px;
+  }
+  .stack img {
+    height: 50px;
+  }
+  p {
+    font-size: smaller;
+  }
+}
+
+@media (max-width: 495px) {
+  .header-links i {
+    margin-bottom: 10px;
+  }
+  #stimulus {
+    width: 150px;
   }
 }
