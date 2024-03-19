@@ -72,6 +72,7 @@ h2 {
   padding-bottom: 50px;
   margin: 0, auto;
   margin-bottom: 20px;
+  position: relative;
   /* box-shadow: 2px 2px 10px #edebff; */
 }
 
@@ -125,6 +126,11 @@ h2 {
   margin: 0 auto;
   margin-top: 40px;
   width: 90%;
+}
+
+.stack-text {
+  margin: 0 auto;
+  width: 350px;
 }
 
 .stack img {
@@ -196,6 +202,11 @@ h2 {
 
 #computer-swap {
   width: 95%;
+}
+
+.treehouse-text {
+  margin: 0 auto;
+  width: 70%;
 }
 
 .react-mini {
@@ -278,14 +289,35 @@ h2 {
   .container {
     width: 90vw;
   }
+  .description {
+    width: 100%;
+  }
   .stack img {
     height: 65px;
+  }
+  .treehouse-text {
+    width: 95%;
   }
 }
 
 @media (max-width: 768px) {
   .cv {
     display: none;
+  }
+  .grey-box {
+    width: 300px;
+  }
+  .grey-box h2 {
+    font-size: 24px;
+  }
+  .grey-box p, .grey-box li {
+    font-size: 14px;
+  }
+  .treehouse-apps img {
+    width: 200px;
+  }
+  .treehouse-apps h4 {
+    margin-top: 0;
   }
 }
 
@@ -296,11 +328,29 @@ h2 {
   .header-links i {
     font-size: 32px;
   }
+  .stack-text {
+    width: 265px;
+  }
   .stack img {
     height: 50px;
   }
   p {
     font-size: smaller;
+  }
+  .align-right {
+    margin-bottom: 0px;
+  }
+  .grey-box {
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    width: 95%;
+  }
+  #less-is-more, #computer-swap {
+    margin-top: 12px;
+  }
+  .treehouse-apps img {
+    width: 150px;
   }
 }
 
@@ -308,7 +358,41 @@ h2 {
   .header-links i {
     margin-bottom: 10px;
   }
-  #stimulus {
-    width: 150px;
+  .treehouse-apps img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 430px) {
+  .stack-text {
+    width: 95%;
+  }
+  .stack img {
+    height: 30px;
+    margin: 5px 6px;
+  }
+  p {
+    font-size: smaller;
+  }
+  .grey-box {
+    width: 80%;
+  }
+  ul {
+    padding-left: 16px;
+  }
+  .features-right {
+    margin-left: 30px;
+  }
+  .treehouse-apps img {
+    width: 75px;
+  }
+}
+
+@media (max-width: 390px) {
+  .features-right {
+    margin-left: 30px;
+  }
+  .grey-box li {
+    font-size: 10px;
   }
 }
