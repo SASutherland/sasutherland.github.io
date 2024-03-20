@@ -1,12 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   text-align: center;
   color: #4a5240;
-  background-color: #25291c;
-  background-image: url("/images/blue-background.jpg");
-  background-size: 250% 800%;
+  background-color: #dee7f7; /* For browsers that do not support gradients */
+  background-image: linear-gradient(50deg, #dee7f7, #9cb8e7);
+  background-image: linear-gradient(to top, #dee7f7, #9cb8e7, #dee7f7);
+  background-image: linear-gradient(to right, #dee7f7, #9cb8e7, #dee7f7);
+  background-image: linear-gradient(to bottom, #dee7f7, #9cb8e7, #dee7f7);
+  background-image: linear-gradient(to left, #dee7f7, #9cb8e7, #dee7f7);
+  background-image: linear-gradient(to top right, #dee7f7, #9cb8e7, #dee7f7);
+  background-image: linear-gradient(to bottom right, #dee7f7, #9cb8e7, #dee7f7);
+  background-image: linear-gradient(to bottom left, #dee7f7, #9cb8e7, #dee7f7);
+  background-image: linear-gradient(to top left, #dee7f7, #9cb8e7, #dee7f7);
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
+
+/* OLD BACKGROUND */
+/* background-image: url("/images/blue-background.jpg"); */
+/* background-size: 250% 800%; */
 
 h1 {
   color: #1C3879;
@@ -30,7 +45,6 @@ h2 {
   align-items: center;
   background-color: white;
   margin-bottom: -10px;
-  /* box-shadow: 2px 2px 10px #edebff; */
   padding: 20px;
 }
 
@@ -77,7 +91,6 @@ h2 {
   margin: 0, auto;
   margin-bottom: 20px;
   position: relative;
-  /* box-shadow: 2px 2px 10px #edebff; */
 }
 
 #avatar {
@@ -228,6 +241,7 @@ h2 {
 
 .treehouse-apps img {
   width: 300px;
+  border: solid 1px lightgray;
 }
 
 .card-app {
@@ -280,7 +294,7 @@ h2 {
 }
 
 .github-big {
-  color: #1C3879;
+  color: black;
   font-size: 100px;
 }
 
