@@ -300,10 +300,19 @@ h2 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 875px) {
   .cv {
     display: none;
   }
+}
+
+@media (max-width: 785px) {
+  .header-links i {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
   .grey-box {
     width: 300px;
   }
@@ -322,6 +331,9 @@ h2 {
 }
 
 @media (max-width: 575px) {
+  #name {
+    width: 250px;
+  }
   .full-stack-dev {
     display: none;
   }
@@ -355,8 +367,8 @@ h2 {
 }
 
 @media (max-width: 495px) {
-  .header-links i {
-    margin-bottom: 10px;
+  #name {
+    width: 200px;
   }
   .treehouse-apps img {
     width: 100px;
@@ -389,6 +401,9 @@ h2 {
 }
 
 @media (max-width: 390px) {
+  #name {
+    width: 150px;
+  }
   .features-right {
     margin-left: 30px;
   }
