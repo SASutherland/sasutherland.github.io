@@ -6,15 +6,15 @@ body {
   text-align: center;
   color: #4a5240;
   background-color: #dee7f7; /* For browsers that do not support gradients */
-  background-image: linear-gradient(50deg, #dee7f7, #9cb8e7);
-  background-image: linear-gradient(to top, #dee7f7, #9cb8e7, #dee7f7);
-  background-image: linear-gradient(to right, #dee7f7, #9cb8e7, #dee7f7);
-  background-image: linear-gradient(to bottom, #dee7f7, #9cb8e7, #dee7f7);
-  background-image: linear-gradient(to left, #dee7f7, #9cb8e7, #dee7f7);
-  background-image: linear-gradient(to top right, #dee7f7, #9cb8e7, #dee7f7);
-  background-image: linear-gradient(to bottom right, #dee7f7, #9cb8e7, #dee7f7);
-  background-image: linear-gradient(to bottom left, #dee7f7, #9cb8e7, #dee7f7);
-  background-image: linear-gradient(to top left, #dee7f7, #9cb8e7, #dee7f7);
+  background-image: linear-gradient(50deg, #9cb8e7, #dee7f7);
+  background-image: linear-gradient(to top, #9cb8e7, #dee7f7, #9cb8e7);
+  background-image: linear-gradient(to right, #9cb8e7, #dee7f7, #9cb8e7);
+  background-image: linear-gradient(to bottom, #9cb8e7, #dee7f7, #9cb8e7);
+  background-image: linear-gradient(to left, #9cb8e7, #dee7f7, #9cb8e7);
+  background-image: linear-gradient(to top right, #9cb8e7, #dee7f7, #9cb8e7);
+  background-image: linear-gradient(to bottom right, #9cb8e7, #dee7f7, #9cb8e7);
+  background-image: linear-gradient(to bottom left, #9cb8e7, #dee7f7, #9cb8e7);
+  background-image: linear-gradient(to top left, #9cb8e7, #dee7f7, #9cb8e7);
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
