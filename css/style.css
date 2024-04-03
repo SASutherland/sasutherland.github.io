@@ -43,7 +43,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: transparent;
   margin-bottom: -10px;
   padding: 20px;
 }
@@ -53,6 +53,7 @@ h2 {
 }
 
 .header .subtitle {
+  font-size: small;
   letter-spacing: 5px;
   margin: 0 10px -1px 0;
 }
@@ -85,7 +86,7 @@ h2 {
 }
 
 .card-white {
-  background-color: white;
+  background-color: transparent;
   padding: 20px;
   padding-bottom: 50px;
   margin: 0, auto;
@@ -95,7 +96,8 @@ h2 {
 
 #avatar {
   border-radius: 50%;
-  width: 150px;
+  width: 220px;
+  box-shadow: 1px 1px 8px #9cb8e7;
 }
 
 .description {
@@ -116,7 +118,7 @@ h2 {
 }
 
 .treehouse-link {
-  color: #7fc29b;
+  color: #428a60;
   font-weight: bold;
   text-decoration: none;
 }
@@ -136,6 +138,7 @@ h2 {
 }
 
 .subtitle {
+  font-size: medium;
   letter-spacing: 5px;
 }
 
@@ -186,12 +189,18 @@ h2 {
 }
 
 .grey-box p {
-  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
 }
 
 .grey-box li {
   font-size: 16px;
   margin-bottom: 4px;
+}
+
+.features {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 .features-and-links {
@@ -241,7 +250,8 @@ h2 {
 
 .treehouse-apps img {
   width: 300px;
-  border: solid 1px lightgray;
+  box-shadow: 1px 1px 10px #9cb8e7;
+  /* border: solid 1px lightgray; */
 }
 
 .card-app {
@@ -262,7 +272,6 @@ h2 {
 .app-description h4 {
   margin-bottom: -5px;
 }
-
 
 .logos img {
   width: 100px;
@@ -289,6 +298,7 @@ h2 {
 }
 
 .follow-me {
+  font-size: medium;
   letter-spacing: 5px;
   margin-bottom: 25px;
 }
