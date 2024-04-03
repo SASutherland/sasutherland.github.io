@@ -53,7 +53,7 @@ h2 {
 }
 
 .header .subtitle {
-  font-size: small;
+  font-size: smaller;
   letter-spacing: 5px;
   margin: 0 10px -1px 0;
 }
