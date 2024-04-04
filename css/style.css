@@ -89,22 +89,28 @@ h2 {
   background-color: transparent;
   padding: 20px;
   padding-bottom: 50px;
-  margin: 0, auto;
-  margin-bottom: 20px;
-  position: relative;
+  margin-bottom: 60px !important;
+  /* margin: 0, auto;
+  /* position: relative; */
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 0 -40px 0 !important;
 }
 
 #avatar {
   border-radius: 50%;
-  width: 220px;
-  box-shadow: 1px 1px 8px #9cb8e7;
+  box-shadow: 2px 2px 12px #9cb8e7;
+  margin-bottom: 40px;
+  width: 320px;
 }
 
 .description {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 25px;
-  margin-bottom: 40px;
+  margin: -20px 0 40px 46px;
+  text-align: left;
 }
 
 .strong {
@@ -127,8 +133,8 @@ h2 {
   background-color: #1C3879;
   border-radius: 10px;
   color: white;
-  font-weight: 600;
-  padding: 12px 36px;
+  font-size: 18px;
+  padding: 22px 54px;
   text-decoration: none;
 }
 
@@ -251,7 +257,6 @@ h2 {
 .treehouse-apps img {
   width: 300px;
   box-shadow: 1px 1px 10px #9cb8e7;
-  /* border: solid 1px lightgray; */
 }
 
 .card-app {
@@ -328,6 +333,16 @@ h2 {
   }
 }
 
+@media (max-width: 991px) {
+  #avatar {
+    width: 200px;
+  }
+  .btn-blue {
+    font-size: 14px;
+    padding: 16px 24px;
+  }
+}
+
 @media (max-width: 875px) {
   .cv {
     display: none;
@@ -340,7 +355,30 @@ h2 {
   }
 }
 
+@media (min-width: 768.01px) {
+  .small-screen {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
+  .wide-screen {
+    display: none;
+  }
+  .small-screen {
+    display: contents;
+  }
+  #avatar {
+    margin-top: 17px;
+    width: 150px;
+  }
+  .description {
+    margin: -26px auto 35px auto;
+    text-align: center;
+  }
+  .stack {
+    margin-top: 10px;
+  }
   .grey-box {
     width: 300px;
   }
