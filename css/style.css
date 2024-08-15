@@ -164,7 +164,7 @@ h2 {
   margin: 10px 12px;
 }
 
-#less-is-more {
+#bander, #less-is-more, #computer-swap {
   width: 95%;
 }
 
@@ -230,10 +230,6 @@ h2 {
 .features-right i:hover {
   color: #607EAA;
   transition: ease 0.3s;
-}
-
-#computer-swap {
-  width: 95%;
 }
 
 .treehouse-text {
@@ -425,7 +421,7 @@ h2 {
     margin-top: 30px;
     width: 95%;
   }
-  #less-is-more, #computer-swap {
+  #bander, #less-is-more, #computer-swap {
     margin-top: 12px;
   }
   .treehouse-apps img {
