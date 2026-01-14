@@ -232,6 +232,10 @@ h2 {
   transition: ease 0.3s;
 }
 
+.yt-embed {
+  padding: 24px 0 0 24px;
+}
+
 .treehouse-text {
   margin: 0 auto;
   width: 70%;
