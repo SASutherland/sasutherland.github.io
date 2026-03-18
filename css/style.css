@@ -168,6 +168,13 @@ h2 {
   width: 95%;
 }
 
+#ska {
+  display: block;
+  padding: 20px;
+  padding-left: 42px;
+  width: 89.3%;
+}
+
 .align-right {
   display: flex;
   justify-content: end;
@@ -438,6 +445,10 @@ h2 {
   }
   #bander, #less-is-more, #computer-swap {
     margin-top: 12px;
+  }
+  #ska {
+    padding-left: 20px;
+    width: 89%;
   }
   .treehouse-apps img {
     width: 150px;
