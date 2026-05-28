@@ -8,331 +8,490 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <title>Shawn Sutherland | Full-Stack Developer</title>
 </head>
 
 <body>
 
-  <div class="container">
+  <!-- ═══ NAV ═══════════════════════════════════════════════ -->
+  <nav>
+    <span class="nav-name">Shawn Sutherland<span>.</span></span>
+    <div class="nav-links">
+      <a href="#about"  class="nav-text-links">About</a>
+      <a href="#stack"  class="nav-text-links">Stack</a>
+      <a href="#apps"   class="nav-text-links">Work</a>
+      <a href="/cv/Shawn Sutherland - CV.pdf" class="nav-cv">Download CV</a>
+      <a href="https://github.com/SASutherland"                    target="_blank" class="nav-icon"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shawn-sutherland-tech/" target="_blank" class="nav-icon"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </nav>
 
-    <div class="header">
-      <div>
-        <img src="images/name-1.png" id="name" alt="Shawn Sutherland website logo">
-      </div>
-      <div class="full-stack-dev">
-        <h2 class="subtitle">Full-stack Developer</h2>
-      </div>
-      <div class="cv">
-        <a href="/cv/Shawn Sutherland - CV.pdf">
-        <h1><i class="fa-solid fa-file"></i> <img src="images/cv-clear.png" id="cv" alt="Download CV"></h1></a>
-      </div>
-      <div>
-        <div class="header-links">
-          <a href="https://github.com/SASutherland" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/shawn-sutherland-tech/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
+  <!-- ═══ HERO ══════════════════════════════════════════════ -->
+  <div class="hero">
+    <div>
+      <div class="hero-pill">Available for freelancing &amp; collaboration</div>
+      <h1 class="hero-name">Building web and <br>mobile apps for <br><em>any</em> need.</h1>
+      <p class="hero-desc">
+        I'm Shawn and I'm a full-stack developer. I build web apps with <strong>Ruby on Rails</strong> and <strong>JavaScript (React/Angular)</strong>. For mobile apps, I typically use <strong>Java/Kotlin, Spring Boot</strong>, and <strong>Android Studio</strong>. I also teach full-stack development classes at Le Wagon campuses across Europe.
+      </p>
+      <div class="hero-actions">
+        <a href="#apps"                           class="btn-primary"><i class="fa-solid fa-layer-group"></i> See My Work</a>
+        <a href="https://github.com/SASutherland" target="_blank" class="btn-ghost"><i class="fab fa-github"></i> GitHub Profile</a>
       </div>
     </div>
-
-
-    <div class="wide-screen">
-      <div class="card-white first">
+    <div class="hero-card">
+      <img src="images/bander-app.png" alt="Bander — Featured Project">
+      <div class="hero-card-badge">
+        <div class="hero-card-badge-dot"></div>
         <div>
-          <img src="images/avatar-1.png" id="avatar" alt="Shawn Sutherland profile picture">
-          <a href="#apps" class="btn-blue">My applications</a>
-        </div>
-        <div class="description">
-          <p>Hello! I'm Shawn and I'm a full-stack developer.</p>
-          <p>I build web applications using <span class="strong">Ruby on Rails, JavaScript, HTML, CSS, and PostgreSQL</span>. Apps are planned with <span class="strong">Figma</span>, designed in collaboration with other developers on <span class="strong">GitHub</span>, and deployed for production on <span class="strong">Heroku</span>.</p>
-          <p>I also teach web development at Le Wagon campuses around Europe. This includes giving lectures and guiding students through their daily coding challenges, as well as conducting online tutorials and workshops.</p>
-          <p>In addition to teaching, I constantly work on my own skill development. I'm an active member of <a href="https://teamtreehouse.com/" target="_blank" class="treehouse-link">Team Treehouse</a>, an online education platform that offers courses and tutorials on various topics related to web development, mobile apps, and design, where I learn new programming languages and frameworks whenever possible.</p>
-          <p>Look forward to collaborating with you!</p>
+          <strong>Featured Project</strong>
+          <small>Bander &mdash; banderjam.com</small>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="small-screen">
-      <div class="card-white">
-        <img src="images/avatar-1.png" id="avatar" alt="Shawn Sutherland profile picture">
-        <div class="description">
-          <p>Hello! I'm Shawn and I'm a full-stack developer.</p>
-          <p>I build web applications using <span class="strong">Ruby on Rails, JavaScript, HTML, CSS, and PostgreSQL</span>. Apps are planned with <span class="strong">Figma</span>, designed in collaboration with other developers on <span class="strong">GitHub</span>, and deployed for production on <span class="strong">Heroku</span>.</p>
-          <p>I also teach web development at Le Wagon campuses around Europe. This includes giving lectures and guiding students through their daily coding challenges, as well as conducting online tutorials and workshops.</p>
-          <p>In addition to teaching, I constantly work on my own skill development. I'm an active member of <a href="https://teamtreehouse.com/" target="_blank" class="treehouse-link">Team Treehouse</a>, an online education platform that offers courses and tutorials on various topics related to web development, mobile apps, and design, where I learn new programming languages and frameworks whenever possible.</p>
-          <p>Look forward to collaborating with you!</p>
+  <!-- ═══ ABOUT ═════════════════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="fade-up">
+        <p class="section-eyebrow">About</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-avatar-wrap fade-up">
+          <img src="images/avatar-1.png" alt="Shawn Sutherland">
+          <div class="about-avatar-ring"></div>
         </div>
-        <a href="#apps" class="btn-blue">My Apps</a>
-      </div>
-    </div>
+        <div class="about-text fade-up">
+          <p>When kicking off a new project, I start by collecting all the features and functionalities we need to implement. Then we design a prototype with <strong>Figma</strong>, track the project on <strong>GitHub</strong>, and deploy the app for production on <strong>Railway</strong> or <strong>Heroku</strong>. Mobile apps can be made available for download on the <strong>Play Store</strong>.</p>
 
-    <div class="card-white stack">
-      <h2 class="subtitle">Stack</h2>
-      <div class="stack-text">
-        <p>I primarily code using a combination of Ruby, HTML, CSS, and JavaScript.</p>
-      </div>
-      <div class="stack">
-        <img src="images/ruby.png" alt="Ruby">
-        <img src="images/rails.png" alt="Rails">
-        <img src="images/react.png" alt="React">
-        <img src="images/html.png" alt="HTML">
-        <img src="images/css.png" alt="CSS">
-        <img src="images/js.png" alt="JavaScript">
-        <img src="images/sql.png" alt="SQL">
+          <p>When I'm not developing, I teach at Le Wagon. This includes giving lectures on programming languages and frameworks, guiding students through daily coding challenges, and helping build apps and deploy them to production, as well as conducting online tutorials and workshops.</p>
 
-        <img src="images/bootstrap.png" alt="Bootstrap">
-        <img src="images/cloudinary.png" alt="Cloudinary">
-        <img src="images/figma.png" alt="Figma">
-        <img src="images/font-awesome.png" alt="Font-Awesome">
-        <img src="images/git.png" alt="Git">
-        <img src="images/github.png" alt="GitHub">
-        <img src="images/heroku.png" alt="Heroku">
-        <img src="images/mapbox.png" alt="MapBox">
-        <img src="images/node-js.png" alt="Node.js">
-        <img src="images/postgreSQL.png" alt="PostgreSQL">
-        <img src="images/photoshop.png" alt="Adobe Photoshop">
-        <img src="images/redis.png" alt="Redis">
-        <img src="images/scss.png" alt="SCSS">
-        <img src="images/stimulus.png" alt="Stimulus">
-        <img src="images/ubuntu.png" alt="Ubuntu">
-        <img src="images/vite.png" alt="Vite">
-      </div>
-    </div>
-
-    <div class="card-white" id="apps">
-      <h2 class="subtitle">Bander</h2>
-      <a href="https://banderjam.com" target="_blank"><img src="images/bander-app.png" id="bander" alt="Bander application shown on several mobile devices"></a>
-
-      <div class="align-right">
-        <div class="grey-box">
-          <h2>Bander</h2>
-          <p>A social media and instant-messaging app for musicians.</p>
-          <p>Bander is the ultimate platform to connect, collaborate, and plan a jam session. Discover new friends, form a band, and play live music together.</p>
-
-          <div class="features-and-links">
-            <div class="features-left">
-              <p><span class="features">FEATURES:</span></p>
-              <ul>
-                <li>Built with Ruby on Rails (HTML, CSS, PostgreSQL)</li>
-                <li>Integrated Devise for robust user authentication and authorization</li>
-                <li>Connected to Mapbox API for geolocation and user display features</li>
-                <li>Instant-messaging system with real-time updates using Turbo Streams</li>
-                <li>Custom email notifications with personalized content based on user roles</li>
-                <li>Dynamic localization support, including both English and Hungarian language options</li>
-                <li>Responsive design using Bootstrap to ensure seamless user experience across devices</li>
-                <li>Integrated third-party services for potential e-commerce functionalities</li>
-                <li>Deployed to Heroku with automated SSL management</li>
-              </ul>
-            </div>
-            <div class="features-right">
-              <a href="https://banderjam.com" target="_blank"><i class="fa-solid fa-square-arrow-up-right"></i></a>
-              <a href="https://youtu.be/La4D-gKnwK4" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
-              <a href="#" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            </div>
-          </div>
-            <div class="video-embed">
-              <iframe
-                src="https://www.youtube.com/embed/La4D-gKnwK4"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-              </iframe>
-            </div>
+          <p>I'm always looking for opportunities to take on new challenges, so if you have an idea you want to see come to fruition, feel free to contact me. Look forward to collaborating with you!</p>
         </div>
       </div>
-
     </div>
+  </section>
 
-        <div class="card-white">
-      <h2 class="subtitle">Stichting Kansen Academie</h2>
-      <a href="https://www.ska-leren.com/" target="_blank"><img src="images/ska.png" id="ska" alt="SKA application shown on a desktop monitor"></a>
+  <!-- ═══ STACK ═════════════════════════════════════════════ -->
+  <!-- Alphabetical order. New logos needed: see list in README comments below. -->
+  <section id="stack">
+    <div class="container">
+      <div class="fade-up">
+        <p class="section-eyebrow">Tech Stack</p>
+        <h2 class="section-title">Tools &amp; Technologies</h2>
+      </div>
+      <div class="stack-grid fade-up">
 
-      <div class="align-right">
-        <div class="grey-box">
-          <h2>Stichting Kansen Academie</h2>
-          <p>An online learning platform for primary school students.</p>
-          <p>Offers a digital practice environment where kids can improve school-related skills in a fun and structured way. The main goal is to help children develop academically.</p>
+        <!-- A -->
+        <span class="stack-badge"><img src="images/android-studio.png" alt="">Android Studio</span>
+        <span class="stack-badge"><img src="images/angular.png"        alt="">Angular</span>
+        <span class="stack-badge"><img src="images/azure-devops.png"   alt="">Azure DevOps</span>
 
-          <div class="features-and-links">
-            <div class="features-left">
-              <p><span class="features">FEATURES:</span></p>
-              <ul>
-                <li>Built with Ruby on Rails (HTML, CSS, PostgreSQL)</li>
-                <li>Uses Devise for authentication/authorization</li>
-                <li>Interactive exercises covering subjects like math, language, and reading comprehension</li>
-                <li>Teachers can assign homework, test knowledge, and track progress</li>
-                <li>Planned with Figma and designed using Agile methodologies in close collaboration with the client</li>
-                <li>Deployed to Heroku</li>
-              </ul>
-            </div>
-            <div class="features-right">
-              <a href="https://www.ska-leren.com/" target="_blank"><i class="fa-solid fa-square-arrow-up-right"></i></a>
-              <a href="https://www.ska-leren.com/" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
-              <a href="https://www.ska-leren.com/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            </div>
-          </div>
-        </div>
+        <!-- B -->
+        <!-- <span class="stack-badge"><img src="images/bash.png"           alt="">Bash</span> -->
+        <span class="stack-badge"><img src="images/bootstrap.png"      alt="">Bootstrap</span>
+
+        <!-- C -->
+        <span class="stack-badge"><img src="images/c.png"              alt="">C</span>
+        <span class="stack-badge"><img src="images/c-sharp.png"        alt="">C#</span>
+        <span class="stack-badge"><img src="images/cpp.png"            alt="">C++</span>
+        <span class="stack-badge"><img src="images/cloudinary.png"     alt="">Cloudinary</span>
+        <span class="stack-badge"><img src="images/confluence.png"     alt="">Confluence</span>
+        <span class="stack-badge"><img src="images/css.png"            alt="">CSS</span>
+
+        <!-- D -->
+        <span class="stack-badge"><img src="images/docker.png"         alt="">Docker</span>
+
+        <!-- F -->
+        <span class="stack-badge"><img src="images/figma.png"          alt="">Figma</span>
+        <span class="stack-badge"><img src="images/font-awesome.png"   alt="">Font Awesome</span>
+
+        <!-- G -->
+        <span class="stack-badge"><img src="images/git.png"            alt="">Git</span>
+        <span class="stack-badge"><img src="images/github.png"         alt="">GitHub</span>
+        <span class="stack-badge"><img src="images/go.png"             alt="">Go</span>
+        <!-- <span class="stack-badge"><img src="images/gcp.png"             alt="">Google Cloud</span> -->
+
+        <!-- H -->
+        <span class="stack-badge"><img src="images/heroku.png"         alt="">Heroku</span>
+        <span class="stack-badge"><img src="images/html.png"           alt="">HTML</span>
+
+        <!-- J -->
+        <span class="stack-badge"><img src="images/java.png"           alt="">Java</span>
+        <span class="stack-badge"><img src="images/js.png"             alt="">JavaScript</span>
+        <span class="stack-badge"><img src="images/jira.png"           alt="">JIRA</span>
+        <span class="stack-badge"><img src="images/json.png"           alt="">JSON</span>
+
+        <!-- K -->
+        <span class="stack-badge"><img src="images/kotlin.png"         alt="">Kotlin</span>
+        <span class="stack-badge"><img src="images/kubernetes.png"     alt="">Kubernetes</span>
+
+        <!-- L -->
+        <span class="stack-badge"><img src="images/linux.png"          alt="">Linux</span>
+
+        <!-- M -->
+        <span class="stack-badge"><img src="images/mapbox.png"         alt="">Mapbox</span>
+
+        <!-- N -->
+        <span class="stack-badge"><img src="images/nestjs.png"        alt="">NestJS</span>
+        <!-- <span class="stack-badge"><img src="images/node-js.png"        alt="">Node.js</span> -->
+
+        <!-- P -->
+        <span class="stack-badge"><img src="images/photoshop.png"      alt="">Photoshop</span>
+        <span class="stack-badge"><img src="images/postgreSQL.png"            alt="">PostgreSQL</span>
+        <span class="stack-badge"><img src="images/premiere.png"       alt="">Premiere Pro</span>
+        <span class="stack-badge"><img src="images/python.png"         alt="">Python</span>
+
+        <!-- R -->
+        <span class="stack-badge"><img src="images/rails.png"          alt="">Rails</span>
+        <span class="stack-badge"><img src="images/railway.png"          alt="">Railway</span>
+        <span class="stack-badge"><img src="images/react.png"          alt="">React</span>
+        <span class="stack-badge"><img src="images/redis.png"          alt="">Redis</span>
+        <span class="stack-badge"><img src="images/ruby.png"           alt="">Ruby</span>
+
+        <!-- S -->
+        <span class="stack-badge"><img src="images/scss.png"           alt="">SCSS</span>
+        <span class="stack-badge"><img src="images/spring-boot.png"    alt="">Spring Boot</span>
+        <span class="stack-badge"><img src="images/stimulus.png"       alt="">Stimulus</span>
+
+        <!-- T -->
+        <span class="stack-badge"><img src="images/typescript.png"     alt="">Typescript</span>
+
+        <!-- U -->
+        <span class="stack-badge"><img src="images/ubuntu.png"         alt="">Ubuntu</span>
+
+        <!-- V -->
+        <span class="stack-badge"><img src="images/vite.png"           alt="">Vite</span>
+
+        <!-- X -->
+        <span class="stack-badge"><img src="images/xml.png"            alt="">XML</span>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ APPS (2×2 grid — no carousel) ════════════════════ -->
+  <section id="apps">
+    <div class="container">
+      <div class="fade-up">
+        <p class="section-eyebrow">Projects</p>
+        <h2 class="section-title">Selected Work</h2>
       </div>
 
-    </div>
+      <div class="apps-carousel-track fade-up" id="appsTrack">
 
-    <div class="card-white">
-      <h2 class="subtitle">Less is More (Demo)</h2>
-      <a href="https://less-is-more-redesign-f4cc13c158e1.herokuapp.com" target="_blank"><img src="images/less-is-more-app.png" id="less-is-more" alt="Less is More application shown on several mobile devices"></a>
-
-      <div class="align-right">
-        <div class="grey-box">
-          <h2>Less is More (Demo)</h2>
-          <p>A climate footprint application designed for mobile devices.</p>
-          <p>After taking a quick survey, see your CO2 impact compared to others in your country, then share ideas with users around the world on how to reduce your carbon footprint going forward.</p>
-
-          <div class="features-and-links">
-            <div class="features-left">
-              <p><span class="features">FEATURES:</span></p>
-              <ul>
-                <li>Built with Ruby on Rails (HTML, CSS, PostgreSQL)</li>
-                <li>Uses Devise for authentication/authorization</li>
-                <li>JavaScript for Mapbox globe functionality</li>
-                <li>Hammer.js for Tinder-like swiping cards</li>
-                <li>Stimulus to post messages</li>
-                <li>Deployed to Heroku</li>
-              </ul>
-            </div>
-            <div class="features-right">
-              <a href="https://less-is-more-redesign-f4cc13c158e1.herokuapp.com" target="_blank"><i class="fa-solid fa-square-arrow-up-right"></i></a>
-              <a href="https://www.youtube.com/watch?v=saDKhPinexk" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
-              <a href="https://github.com/SASutherland/less-is-more-redesign" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            </div>            
-          </div>
-          <div class="video-embed">
-            <iframe
-              src="https://www.youtube.com/embed/saDKhPinexk"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen>
-            </iframe>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="card-white">
-      <h2 class="subtitle">Computer Swap (Demo)</h2>
-      <a href="https://computer-swap-cd9c90b1613d.herokuapp.com" target="_blank"><img src="images/computer-swap-app.png" id="computer-swap" alt="Computer Swap application shown on several mobile devices"></a>
-
-      <div class="align-right">
-        <div class="grey-box">
-          <h2>Computer Swap (Demo)</h2>
-          <p>A marketplace Airbnb-style application for renting laptops.</p>
-          <p>Search for computers available in your area based on your requirements and book them for as long as you need.</p>
-
-          <div class="features-and-links">
-            <div class="features-left">
-              <p><span class="features">FEATURES:</span></p>
-              <ul>
-                <li>Built with Ruby on Rails (HTML, CSS, PostgreSQL)</li>
-                <li>Uses Devise for authentication/authorization</li>
-                <li>Searchbar functionality for choosing laptops</li>
-                <li>Mapbox to display the laptop pickup location</li>
-                <li>Bootstrap carousel-style images</li>
-                <li>Deployed to Heroku</li>
-              </ul>
-            </div>
-            <div class="features-right">
-              <a href="https://computer-swap-cd9c90b1613d.herokuapp.com" target="_blank"><i class="fa-solid fa-square-arrow-up-right"></i></a>
-              <a href="https://www.youtube.com/watch?v=cYFIapAhYwU" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
-              <a href="https://github.com/SASutherland/computer-swap" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            </div>
-          </div>
-          <div class="video-embed">
-            <iframe
-              src="https://www.youtube.com/embed/cYFIapAhYwU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen>
-            </iframe>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="card-white">
-      <h2 class="subtitle">Treehouse</h2>
-      <p class="treehouse-text">These mini-apps were created by <a href="https://teamtreehouse.com/" target="_blank" class="treehouse-link">Treehouse</a> using React. I built them by following along with online courses and then added my own personalization.</p>
-        <div class="treehouse-apps">
-          <div class="card-app">
-            <a href="https://sasutherland.github.io/react-gif-search" target="_blank">
-              <img src="images/gif-search.png" alt="Picture of the GIF-Search app">
-            </a>
-            <div class="app-description">
-              <h4><strong>GIF Search</strong></h4>
-              <p>Enter a keyword into the search field to find matching GIFs. This app fetches GIFs from Giphy and displays the best results. (The keyword "panda" is used by default.)</p>
-            </div>
-          </div>
-          <div class="card-app">
-            <a href="https://sasutherland.github.io/react-vite-grocery" target="_blank">
-              <img src="images/grocery-list.png" alt="Picture of the Grocery List app">
-            </a>
-            <div class="app-description">
-              <h4><strong>Grocery List</strong></h4>
-              <p>A simple listing app that allows you to add or subtract quantity. You can also add new items or cross them off the list. Built using state changes in React and Vite.</p>
-            </div>
-          </div>
-          <div class="card-app">
-            <a href="https://sasutherland.github.io/react-scoreboard" target="_blank">
-              <img src="images/scoreboard.png" alt="Picture of the Scoreboard app">
-            </a>
-            <div class="app-description">
-              <h4><strong>Scoreboard</strong></h4>
-              <p>An app for keeping track of the score. Add or remove players and crown the winner! Also features a stopwatch for timed games.</p>
-            </div>
-          </div>
-          <div class="card-app">
-            <a href="https://sasutherland.github.io/react-star-ratings" target="_blank">
-              <img src="images/star-ratings.png" alt="Picture of the Star-Rating app">
-            </a>
-            <div class="app-description">
-              <h4><strong>Star Ratings</strong></h4>
-              <p>Built to test a five-star review feature. Courses can be rated from one to five stars. Ratings can be adjusted at any time by simply clicking on the stars. </p>
+        <!-- Bander -->
+        <div class="app-card">
+          <img src="images/bander-app.png" alt="Bander" class="app-card-img">
+          <div class="app-card-body">
+            <div class="app-card-tag">Social / Music</div>
+            <h3 class="app-card-title">Bander</h3>
+            <p class="app-card-desc">A social media and instant-messaging app for musicians. Discover players, form a band, and plan your next jam session.</p>
+            <ul class="app-features">
+              <li>Ruby on Rails with real-time messaging via Turbo Streams</li>
+              <li>Mapbox API for geolocation and user discovery</li>
+              <li>English &amp; Hungarian localization support</li>
+              <li>Custom email notifications by user role</li>
+              <li>Deployed to Heroku with automated SSL</li>
+            </ul>
+            <div class="app-links">
+              <a href="https://banderjam.com"          target="_blank" class="app-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="https://youtu.be/La4D-gKnwK4"   target="_blank" class="app-link"><i class="fab fa-youtube"></i> Demo</a>
+              <a href="#"                              target="_blank" class="app-link"><i class="fab fa-github"></i> Code</a>
             </div>
           </div>
         </div>
 
+        <!-- Sipi -->
+        <div class="app-card">
+          <img src="images/sipi-app.png" alt="Sipi" class="app-card-img">
+          <div class="app-card-body">
+            <div class="app-card-tag">Food / Lifestyle</div>
+            <h3 class="app-card-title">Sipi</h3>
+            <p class="app-card-desc">A personal recipe book for Android. Save your favourite recipes, build smart grocery lists, and discover dishes shared by the community.</p>
+            <ul class="app-features">
+              <li>Java/Spring Boot REST API deployed on Railway with PostgreSQL</li>
+              <li>Cloudinary image hosting with YouTube video integration</li>
+              <li>Smart grocery list builder with servings multiplier</li>
+              <li>Google OAuth and JWT authentication</li>
+              <li>To be published on Google Play Store</li>
+            </ul>
+            <div class="app-links">
+              <a href="https://play.google.com/store/apps/details?id=com.sipi" target="_blank" class="app-link"><i class="fa-brands fa-google-play"></i> Play Store</a>
+              <a href="https://github.com/SASutherland/sipi" target="_blank" class="app-link"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKA -->
+        <div class="app-card">
+          <img src="images/ska.png" alt="Stichting Kansen Academie" class="app-card-img">
+          <div class="app-card-body">
+            <div class="app-card-tag">Education</div>
+            <h3 class="app-card-title">Stichting Kansen Academie</h3>
+            <p class="app-card-desc">An online learning platform for primary school students to practice math, language, and reading in a fun, structured environment.</p>
+            <ul class="app-features">
+              <li>Interactive exercises with real-time feedback</li>
+              <li>Different question types and evaluation tools</li>
+              <li>Teachers can assign homework and track progress</li>
+              <li>Built in collaboration with the client and other developers</li>
+              <li>Planned with Figma using Agile methodologies</li>
+            </ul>
+            <div class="app-links">
+              <a href="https://www.ska-leren.com/" target="_blank" class="app-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Less is More -->
+        <div class="app-card">
+          <img src="images/less-is-more-app.png" alt="Less is More" class="app-card-img">
+          <div class="app-card-body">
+            <div class="app-card-tag">Climate</div>
+            <h3 class="app-card-title">Less is More</h3>
+            <p class="app-card-desc">A mobile climate footprint app. Survey your habits, compare your CO&#x2082; impact, and share ideas with a global community.</p>
+            <ul class="app-features">
+              <li>Personalized recommendations based on user input</li>
+              <li>Per-category CO₂ data stored for every country</li>
+              <li>Mapbox globe for global impact visualisation</li>
+              <li>Stimulus for real-time post updates</li>
+              <li>Hammer.js swipe cards for quickly sorting action points</li>
+            </ul>
+            <div class="app-links">
+              <a href="https://less-is-more-redesign-f4cc13c158e1.herokuapp.com" target="_blank" class="app-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="https://www.youtube.com/watch?v=saDKhPinexk"              target="_blank" class="app-link"><i class="fab fa-youtube"></i> Demo</a>
+              <a href="https://github.com/SASutherland/less-is-more-redesign"    target="_blank" class="app-link"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Computer Swap -->
+        <div class="app-card">
+          <img src="images/computer-swap-app.png" alt="Computer Swap" class="app-card-img">
+          <div class="app-card-body">
+            <div class="app-card-tag">Marketplace</div>
+            <h3 class="app-card-title">Computer Swap</h3>
+            <p class="app-card-desc">An Airbnb-style marketplace for renting laptops. Search by location and spec and then book for as long as you need.</p>
+            <ul class="app-features">
+              <li>Ruby on Rails with Devise authentication</li>
+              <li>Searchbar filtering by laptop specifications</li>
+              <li>Mapbox for pickup location display</li>
+              <li>Bootstrap carousel-style image gallery</li>
+              <li>Scheduling services for pickup and return dates</li>
+            </ul>
+            <div class="app-links">
+              <a href="https://computer-swap-cd9c90b1613d.herokuapp.com" target="_blank" class="app-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="https://www.youtube.com/watch?v=cYFIapAhYwU"      target="_blank" class="app-link"><i class="fab fa-youtube"></i> Demo</a>
+              <a href="https://github.com/SASutherland/computer-swap"    target="_blank" class="app-link"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /apps-carousel-track -->
+
+      <div class="carousel-controls">
+        <div class="carousel-dots" id="appsDots"></div>
+        <div class="carousel-btns">
+          <button class="carousel-btn" id="appsPrev" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="carousel-btn" id="appsNext" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ REACT COMPONENTS CAROUSEL (2 visible at a time) ═══ -->
+  <section id="react">
+    <div class="container">
+      <div class="fade-up">
+        <p class="section-eyebrow">Components</p>
+        <h2 class="section-title">React Components</h2>
       </div>
 
-      <div class="card-white">
-        <h2 class="subtitle">Technical Writing</h2>
-        <p>I've also written customer-facing<br>
-          documentation for several tech companies.</p>
-          <div class="logos">
-            <div class="row-1">
-              <a href="https://www.nokia.com/networks">
-                <img src="images/logo-nokia.png" id="nokia" alt="Nokia logo"></a>
-                <a href="https://kpmg.com/nl/en/home.html">
-                  <img src="images/logo-kpmg.png" id="kpmg" alt="KPMG logo"></a>
-                </div>
-                <div class="row-2">
-                  <a href="https://www.datasourcegroup.com/">
-                    <img src="images/logo-datasource.png" id="datasource" alt="Datasource logo"></a>
-                    <a href="https://badal.io/">
-                      <img src="images/logo-badal.png" id="badal" alt="Badal logo"></a>
-                    </div>
-                  </div>
-                </div>
+      <div class="mini-carousel-track" id="miniTrack">
+        <a href="https://sasutherland.github.io/react-gif-search"   target="_blank" class="mini-card">
+          <img src="images/gif-search.png"   alt="GIF Search">
+          <div class="mini-card-body">
+            <h4>GIF Search</h4>
+            <p>Keyword GIF finder powered by the Giphy API with live results.</p>
+          </div>
+        </a>
+        <a href="https://sasutherland.github.io/react-vite-grocery" target="_blank" class="mini-card">
+          <img src="images/grocery-list.png" alt="Grocery List">
+          <div class="mini-card-body">
+            <h4>Grocery List</h4>
+            <p>Add, subtract, and cross off items. Built with React state and Vite.</p>
+          </div>
+        </a>
+        <a href="https://sasutherland.github.io/react-scoreboard"   target="_blank" class="mini-card">
+          <img src="images/scoreboard.png"   alt="Scoreboard">
+          <div class="mini-card-body">
+            <h4>Scoreboard</h4>
+            <p>Track scores, manage players, and crown the winner — with a stopwatch.</p>
+          </div>
+        </a>
+        <a href="https://sasutherland.github.io/react-star-ratings"  target="_blank" class="mini-card">
+          <img src="images/star-ratings.png" alt="Star Ratings">
+          <div class="mini-card-body">
+            <h4>Star Ratings</h4>
+            <p>Clickable, adjustable five-star review component.</p>
+          </div>
+        </a>
+      </div>
 
-                <div class="card-white">
-                  <h2 class="follow-me">Follow Me on GitHub!</h2>
-                  <a href="https://github.com/SASutherland" target="_blank"><i class="fab fa-github github-big"></i></a>
-                </div>
+      <div class="carousel-controls">
+        <div class="carousel-dots" id="miniDots"></div>
+        <div class="carousel-btns">
+          <button class="carousel-btn" id="miniPrev" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="carousel-btn" id="miniNext" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
 
-              </div>
+  <!-- ═══ TECHNICAL WRITING ══════════════════════════════════ -->
+  <section id="writing">
+    <div class="container">
+      <div class="fade-up">
+        <p class="section-eyebrow">Writing</p>
+        <h2 class="section-title">Technical Writing</h2>
+        <p style="color:var(--text-2);font-size:15px;margin-top:-22px;margin-bottom:32px;">I have also developed technical documentation for several tech companies, writing in great detail about Microsoft Azure and Google Cloud Platform.</p>
+      </div>
+      <div class="writing-logos fade-up">
+        <a href="https://www.nokia.com/networks"       class="logo-card"><img src="images/logo-nokia.png"      alt="Nokia"></a>
+        <a href="https://kpmg.com/nl/en/home.html"     class="logo-card"><img src="images/logo-kpmg.png"       alt="KPMG"></a>
+        <a href="https://www.datasourcegroup.com/"     class="logo-card"><img src="images/logo-datasource.png" alt="Datasource"></a>
+        <a href="https://www.telusdigital.com/technology-partners/google"                    class="logo-card"><img src="images/logo-telus.png"       alt="Telus Digital"></a>
+      </div>
+    </div>
+  </section>
 
-            </body>
-            </html>
+  <!-- ═══ FOOTER ════════════════════════════════════════════ -->
+  <footer>
+    <div>
+      <div class="footer-name">Shawn Sutherland<span>.</span></div>
+      <div class="footer-tagline">Full-Stack Developer — Budapest, HU</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/SASutherland"                    target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shawn-sutherland-tech/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <!-- ═══ SCRIPTS ═══════════════════════════════════════════ -->
+  <script>
+    /* ── APPS CAROUSEL (2 at a time) ── */
+    (function () {
+      const track   = document.getElementById('appsTrack');
+      const dotsEl  = document.getElementById('appsDots');
+      const prevBtn = document.getElementById('appsPrev');
+      const nextBtn = document.getElementById('appsNext');
+      const cards   = Array.from(track.querySelectorAll('.app-card'));
+      const positions = cards.map((_, i) => i).slice(0, cards.length - 1);
+      let current = 0;
+
+      positions.forEach((_, i) => {
+        const d = document.createElement('button');
+        d.className = 'dot' + (i === 0 ? ' active' : '');
+        d.setAttribute('aria-label', 'Go to slide group ' + (i + 1));
+        d.addEventListener('click', () => goTo(i));
+        dotsEl.appendChild(d);
+      });
+
+      function updateUI() {
+        dotsEl.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('active', i === current));
+        prevBtn.disabled = current === 0;
+        nextBtn.disabled = current >= positions.length - 1;
+      }
+
+      function goTo(index) {
+        current = Math.max(0, Math.min(index, positions.length - 1));
+        track.scrollTo({ left: cards[positions[current]].offsetLeft - track.offsetLeft, behavior: 'smooth' });
+        updateUI();
+      }
+
+      prevBtn.addEventListener('click', () => goTo(current - 1));
+      nextBtn.addEventListener('click', () => goTo(current + 1));
+
+      let scrollTimer;
+      track.addEventListener('scroll', () => {
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(() => {
+          let closest = 0, minDist = Infinity;
+          positions.forEach((cardIndex, i) => {
+            const dist = Math.abs(cards[cardIndex].offsetLeft - track.offsetLeft - track.scrollLeft);
+            if (dist < minDist) { minDist = dist; closest = i; }
+          });
+          if (closest !== current) { current = closest; updateUI(); }
+        }, 60);
+      });
+
+      updateUI();
+    })();
+
+    /* ── REACT COMPONENTS MINI CAROUSEL ── */
+    (function () {
+      const track   = document.getElementById('miniTrack');
+      const dotsEl  = document.getElementById('miniDots');
+      const prevBtn = document.getElementById('miniPrev');
+      const nextBtn = document.getElementById('miniNext');
+      const cards   = Array.from(track.querySelectorAll('.mini-card'));
+
+      /* 2 cards visible at a time → 3 scroll positions: [0,1], [1,2], [2,3] */
+      const positions = cards.length > 2
+        ? cards.map((_, i) => i).slice(0, cards.length - 1)
+        : [0];
+
+      let current = 0;
+
+      positions.forEach((_, i) => {
+        const d = document.createElement('button');
+        d.className = 'dot' + (i === 0 ? ' active' : '');
+        d.setAttribute('aria-label', 'Go to slide group ' + (i + 1));
+        d.addEventListener('click', () => goTo(i));
+        dotsEl.appendChild(d);
+      });
+
+      function updateUI() {
+        dotsEl.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('active', i === current));
+        prevBtn.disabled = current === 0;
+        nextBtn.disabled = current >= positions.length - 1;
+      }
+
+      function goTo(index) {
+        current = Math.max(0, Math.min(index, positions.length - 1));
+        const targetCard = cards[positions[current]];
+        track.scrollTo({ left: targetCard.offsetLeft - track.offsetLeft, behavior: 'smooth' });
+        updateUI();
+      }
+
+      prevBtn.addEventListener('click', () => goTo(current - 1));
+      nextBtn.addEventListener('click', () => goTo(current + 1));
+
+      let scrollTimer;
+      track.addEventListener('scroll', () => {
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(() => {
+          let closest = 0, minDist = Infinity;
+          positions.forEach((cardIndex, i) => {
+            const dist = Math.abs(cards[cardIndex].offsetLeft - track.offsetLeft - track.scrollLeft);
+            if (dist < minDist) { minDist = dist; closest = i; }
+          });
+          if (closest !== current) { current = closest; updateUI(); }
+        }, 60);
+      });
+
+      updateUI();
+    })();
+
+    /* ── SCROLL FADE-IN ── */
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.10 });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
