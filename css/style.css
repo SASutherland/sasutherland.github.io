@@ -79,7 +79,8 @@ nav {
   color: var(--text);
   letter-spacing: -0.01em;
 }
-.nav-name span { color: var(--acc); }
+
+.nav-name .name-dot { color: var(--acc); }
 
 .nav-links {
   display: flex;
@@ -570,7 +571,7 @@ footer {
   font-size: 20px;
   letter-spacing: -0.01em;
 }
-.footer-name span { color: var(--acc-soft); }
+.footer-name .name-dot { color: var(--acc-soft); }
 .footer-tagline { font-size: 13px; color: rgba(255,255,255,0.45); margin-top: 4px; }
 .footer-links { display: flex; gap: 10px; }
 .footer-links a {
@@ -618,8 +619,12 @@ footer {
   .hero-name { font-size: 40px; }
   .hero-actions { flex-direction: column; align-items: flex-start; }
   .mini-card { flex: 0 0 90%; }
-  .stack-badge { font-size: 13px; padding: 9px 16px; }
+  .stack-badge { font-size: 10px; padding: 6px 10px; }
   .writing-logos { gap: 10px; }
   .logo-card { padding: 18px 22px; }
   .logo-card img { width: 80px; height: 28px; }
+}
+
+@media (max-width: 450px) {
+  .last-name { display: none }
 }
