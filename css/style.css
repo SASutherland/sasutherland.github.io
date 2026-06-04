@@ -216,7 +216,7 @@ nav {
   width: 100%;
   display: block;
   aspect-ratio: 4/3;
-  object-fit: cover;
+  object-fit: contain;
 }
 .hero-card-badge {
   position: absolute;
@@ -238,7 +238,7 @@ nav {
   background: #22c55e;
   flex-shrink: 0;
 }
-.hero-card-badge strong { font-size: 13px; font-weight: 600; color: var(--text); display: block; }
+.hero-card-badge strong { font-size: 13px; font-weight: 600; color: var(--text); display: block; margin-bottom: -8px }
 .hero-card-badge small  { font-size: 11px; color: var(--text-2); }
 
 /* ─── SECTION / CONTAINER ────────────────────────────────── */
