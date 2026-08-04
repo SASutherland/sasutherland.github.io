@@ -73,7 +73,7 @@ nav {
 }
 
 .nav-name {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-weight: 800;
   font-size: 17px;
   color: var(--text);
@@ -150,9 +150,9 @@ nav {
 }
 
 .hero-name {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-weight: 800;
-  font-size: clamp(42px, 5.5vw, 76px);
+  font-size: clamp(28px, 3.5vw, 52px);
   line-height: 1.0;
   letter-spacing: -0.03em;
   color: var(--text);
@@ -269,9 +269,9 @@ section { padding: 64px 0; }
 }
 
 .section-title {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-weight: 800;
-  font-size: clamp(26px, 3.2vw, 40px);
+  font-size: clamp(22px, 1.8vw, 32px);
   color: var(--text);
   letter-spacing: -0.02em;
   line-height: 1.1;
@@ -566,7 +566,7 @@ footer {
   margin-top: 40px;
 }
 .footer-name {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-weight: 800;
   font-size: 20px;
   letter-spacing: -0.01em;
